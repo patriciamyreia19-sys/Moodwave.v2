@@ -6,11 +6,14 @@
 <title>MoodWave | Sintonia Musical Inteligente</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
 <header>
 <div class="header-container">
 <div class="logo" role="img" aria-label="MoodWave Logo">⚡ MoodWave</div>
+
 <nav aria-label="Navegação Principal">
 <ul>
 <li><a href="#inicio" aria-current="page">Início</a></li>
@@ -18,19 +21,27 @@
 <li><a href="#inscreva-se">Inscreva-se</a></li>
 </ul>
 </nav>
+
 <button id="theme-toggle" class="btn-toggle" aria-label="Alternar entre modo claro e escuro">
 <span class="icon-sun" aria-hidden="true">☀️</span>
 <span class="icon-moon" aria-hidden="true">🌙</span>
 </button>
 </div>
 </header>
+
 <main id="conteudo-principal">
+
 <section id="inicio" class="hero">
 <h1>Som que explode diretamente em seu emocional</h1>
-<p>Escolha sua vibe e receba uma seleção musical pensada para o seu estado de espírito agora.</p>
+<p>
+Esqueça os algoritmos robóticos. Aqui, a curadoria musical é guiada pelo que você está
+sentindo agora. Escolha sua vibe e dê o play na seleção perfeita.
+</p>
 </section>
+
 <section class="filtros-section" aria-labelledby="titulo-filtros">
 <h2 id="titulo-filtros">Qual é a tua vibe de agora?</h2>
+
 <div class="filtros-container" role="group" aria-label="Filtros por humor musical">
 <button class="btn-filter active" data-mood="todos" aria-pressed="true">Tudo Junto</button>
 <button class="btn-filter" data-mood="energia" aria-pressed="false">⚡ Energia Alta</button>
@@ -39,143 +50,265 @@
 <button class="btn-filter" data-mood="celestial" aria-pressed="false">🌌 Visão Celestial</button>
 </div>
 </section>
+
 <section class="grid-posts" aria-label="Seleções musicais por vibe">
+
 <article class="card-post" data-mood="celestial">
 <div class="card-image-placeholder cosmic-gradient">🌌</div>
+
 <div class="card-content">
 <span class="tag celestial">Visão Celestial</span>
 <h3>A Sky Full of Stars — Coldplay</h3>
-<p class="resumo">Uma explosão cósmica de sintetizadores e emoção.</p>
-<button class="btn-read" data-category="celestial" data-index="0">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Aquela explosão cósmica indescritível. Uma análise sobre como o clímax da faixa traz
+uma sensação de antecipação feliz.
+</p>
+
+<button class="btn-read" data-category="celestial" data-index="0">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="celestial">
 <div class="card-image-placeholder cosmic-gradient">🪐</div>
+
 <div class="card-content">
 <span class="tag celestial">Visão Celestial</span>
 <h3>Starboy — The Weeknd ft. Daft Punk</h3>
-<p class="resumo">Uma viagem noturna e futurista com atmosfera interestelar.</p>
-<button class="btn-read" data-category="celestial" data-index="1">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Uma viagem noturna e futurista, com batidas eletrônicas e atmosfera interestelar.
+</p>
+
+<button class="btn-read" data-category="celestial" data-index="1">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="celestial">
 <div class="card-image-placeholder cosmic-gradient">✨</div>
+
 <div class="card-content">
 <span class="tag celestial">Visão Celestial</span>
 <h3>Midnight City — M83</h3>
-<p class="resumo">Sintetizadores noturnos e uma sensação de cidade infinita sob as estrelas.</p>
-<button class="btn-read" data-category="celestial" data-index="2">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Sintetizadores noturnos e uma sensação de cidade infinita sob as estrelas.
+</p>
+
+<button class="btn-read" data-category="celestial" data-index="2">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="energia">
 <div class="card-image-placeholder energy-gradient">⚡</div>
+
 <div class="card-content">
 <span class="tag energia">Energia Alta</span>
 <h3>Summer — Calvin Harris</h3>
-<p class="resumo">Eletrônica ensolarada e contagiante para elevar a energia do dia.</p>
-<button class="btn-read" data-category="energia" data-index="0">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Baterias eletrônicas estalando e sintetizadores neon. O som das pistas dos anos 80
+voltou com tudo para fritar o seu cérebro de empolgação.
+</p>
+
+<button class="btn-read" data-category="energia" data-index="0">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="energia">
 <div class="card-image-placeholder energy-gradient">🔥</div>
+
 <div class="card-content">
 <span class="tag energia">Energia Alta</span>
 <h3>Titanium — David Guetta ft. Sia</h3>
-<p class="resumo">Um hino de resistência com drop poderoso e vocal marcante.</p>
-<button class="btn-read" data-category="energia" data-index="1">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+A engenharia pop perfeita para te tirar do sofá. Loops vocais e groove que entregam
+adrenalina pura na sua rotina.
+</p>
+
+<button class="btn-read" data-category="energia" data-index="1">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="energia">
 <div class="card-image-placeholder energy-gradient">🚀</div>
+
 <div class="card-content">
 <span class="tag energia">Energia Alta</span>
 <h3>Blinding Lights — The Weeknd</h3>
-<p class="resumo">Synth-pop acelerado com energia de pista e clima noturno dos anos 80.</p>
-<button class="btn-read" data-category="energia" data-index="2">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Synth-pop acelerado, com energia de pista e clima noturno dos anos 80.
+</p>
+
+<button class="btn-read" data-category="energia" data-index="2">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="foco">
 <div class="card-image-placeholder focus-gradient">🧠</div>
+
 <div class="card-content">
 <span class="tag foco">Hiperfoco</span>
 <h3>Loops Ambientais e Codificação</h3>
-<p class="resumo">Texturas sonoras repetitivas para estudar, trabalhar e programar.</p>
-<button class="btn-read" data-category="foco" data-index="0">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Texturas sonoras repetitivas que criam uma parede anti-distração para programar,
+estudar e trabalhar.
+</p>
+
+<button class="btn-read" data-category="foco" data-index="0">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="foco">
 <div class="card-image-placeholder focus-gradient">☕</div>
+
 <div class="card-content">
 <span class="tag foco">Hiperfoco</span>
 <h3>The xx — Intro</h3>
-<p class="resumo">Batida minimalista e clima introspectivo para leitura e concentração.</p>
-<button class="btn-read" data-category="foco" data-index="1">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Batidinha estalada de vinil com piano ao fundo. Uma curadoria fina para estudar, ler
+ou programar sem perder o foco.
+</p>
+
+<button class="btn-read" data-category="foco" data-index="1">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="melancolia">
 <div class="card-image-placeholder melancholy-gradient">🌧️</div>
+
 <div class="card-content">
 <span class="tag melancolia">Bad/Reflexivo</span>
 <h3>Someone Like You — Adele</h3>
-<p class="resumo">Piano e voz em primeiro plano para dias de reflexão.</p>
-<button class="btn-read" data-category="melancolia" data-index="0">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Piano e voz em primeiro plano para dias de reflexão e emoção à flor da pele.
+</p>
+
+<button class="btn-read" data-category="melancolia" data-index="0">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="melancolia">
 <div class="card-image-placeholder melancholy-gradient">🖤</div>
+
 <div class="card-content">
 <span class="tag melancolia">Bad/Reflexivo</span>
 <h3>Photograph — Ed Sheeran</h3>
-<p class="resumo">Violão íntimo e melodia nostálgica para momentos silenciosos.</p>
-<button class="btn-read" data-category="melancolia" data-index="1">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Violão íntimo e melodia nostálgica para lembranças e momentos silenciosos.
+</p>
+
+<button class="btn-read" data-category="melancolia" data-index="1">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 <article class="card-post" data-mood="melancolia">
 <div class="card-image-placeholder melancholy-gradient">🍂</div>
+
 <div class="card-content">
 <span class="tag melancolia">Bad/Reflexivo</span>
 <h3>Fix You — Coldplay</h3>
-<p class="resumo">Uma construção emocional lenta que cresce até virar consolo.</p>
-<button class="btn-read" data-category="melancolia" data-index="2">Ouvir Seleção ▶</button>
+
+<p class="resumo">
+Uma construção emocional lenta que cresce até se transformar em consolo.
+</p>
+
+<button class="btn-read" data-category="melancolia" data-index="2">
+Ouvir Seleção ▶
+</button>
 </div>
 </article>
+
 </section>
+
 <section id="sobre" class="about-section">
 <h2>Qual é a do MoodWave?</h2>
-<p>No MoodWave, música é conexão e cura. Criamos um santuário digital leve, inclusivo e responsivo: a alquimia entre som e sentimento.</p>
+<p>
+Esqueça os gráficos frios do mercado e as modinhas que evaporam em segundos. No MoodWave,
+a gente sabe que música é conexão e cura. Criamos um santuário digital leve, inclusivo e
+responsivo: a alquimia entre som e sentimento, entregando a frequência que a sua mente e
+o seu coração precisam agora mesmo.
+</p>
 </section>
+
 <section id="inscreva-se">
 <h2>Sintonize na nossa frequência 🌀</h2>
+
 <form id="form-inscricao">
-<input type="email" id="email-inscricao" placeholder="Digite seu e-mail aqui..." aria-label="Digite seu endereço de e-mail para se inscrever" required>
+<input
+type="email"
+id="email-inscricao"
+placeholder="Digite seu e-mail aqui..."
+aria-label="Digite seu endereço de e-mail para se inscrever"
+required>
 <button type="submit">Entrar na Vibe</button>
 </form>
+
 <p id="mensagem-inscricao" class="mensagem-inscricao escondido"></p>
 </section>
+
 <div id="video-modal" class="video-modal escondido" role="dialog" aria-modal="true" aria-labelledby="modal-title">
 <div class="modal-content">
 <div class="modal-header">
 <h3 id="modal-title">Reproduzindo</h3>
 <button id="close-modal" class="close-modal" aria-label="Fechar player">✕</button>
 </div>
-<div class="video-container"><div id="youtube-player"></div></div>
+
+<div class="video-container">
+<div id="youtube-player"></div>
+</div>
+
 <div class="player-controls">
 <button id="btn-prev" class="control-btn" aria-label="Música anterior">⏮️</button>
 <button id="btn-play" class="control-btn main-control" aria-label="Reproduzir ou pausar">▶️</button>
 <button id="btn-next" class="control-btn" aria-label="Próxima música">⏭️</button>
+
 <span id="current-time" class="time">0:00</span>
 <input id="progress-bar" class="progress-bar" type="range" min="0" max="100" value="0" aria-label="Progresso da música">
 <span id="duration" class="time">0:00</span>
+
 <button id="btn-mute" class="control-btn" aria-label="Ativar ou desativar som">🔊</button>
 <input id="volume-bar" class="volume-bar" type="range" min="0" max="100" value="100" aria-label="Volume">
 </div>
+
 <p id="playlist-info" class="playlist-info"></p>
 </div>
 </div>
+
 </main>
+
 <footer>
-<div class="footer-container"><p>&copy; 2026 MoodWave. Feito com código limpo, café e muita sintonia.</p></div>
+<div class="footer-container">
+<p>© 2026 MoodWave. Feito com código limpo, café e muita sintonia.</p>
+</div>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
